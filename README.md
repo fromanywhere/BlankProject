@@ -4,7 +4,7 @@ BlankProject
 Сore files which I use for starting a new project.
 
 Significant feature of my projects is small size and short lifetime of site (usually < 1 year).
-So i build compact project skeleton which help me begin to work effectially.
+So i build compact project skeleton which help me begin to work effectually.
 
 Project structure:
 
