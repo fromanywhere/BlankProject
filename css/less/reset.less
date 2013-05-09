@@ -70,14 +70,20 @@ textarea {
 	overflow: auto;
 }
 
-.clearfix:before, .clearfix:after { 
-	content: ""; 
-	display: table; 
-}
-.clearfix:after { 
-	clear: both; 
-}
+.clearfix {
 
-.ie7 .clearfix {
-	zoom: 1;
+	&:before {
+		content: ""; 
+		display: table; 	
+	}
+	
+	&:after {
+		content: ""; 
+		display: table; 		
+		clear: both; 	
+	}
+	
+	.ie7 & {
+		zoom: 1;
+	}
 }
