@@ -17,9 +17,9 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, main, nav, section { 
-	display: block; 
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, nav, section {
+	display: block;
 }
 
 ol, ul {
@@ -33,24 +33,12 @@ table {
 	border-spacing: 0;
 }
 
-img { 
-	border: 0; 
+img {
+	border: 0;
 }
 
-a, a:focus, a img, a img:focus {
-	border: 0 none;
-}
-
-a, a img, textarea, input {
-	outline: 0 none;
-}
-
-a:focus { 
-	outline: thin dotted; 
-}
-
-a { 
-	color: #00f; 
+a {
+	color: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,17 +61,13 @@ textarea {
 .clearfix {
 
 	&:before {
-		content: ""; 
-		display: table; 	
+		content: "";
+		display: table;
 	}
-	
+
 	&:after {
-		content: ""; 
-		display: table; 		
-		clear: both; 	
-	}
-	
-	.ie7 & {
-		zoom: 1;
+		content: "";
+		display: table;
+		clear: both;
 	}
 }
